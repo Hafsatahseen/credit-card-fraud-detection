@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Card Fraud Detection Login</title>
+<link rel="stylesheet" href="log.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Credit Card Fraud Detection</h2>
+    <form id="loginForm" action="upload.html" method="get">
+    <form id="loginForm" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="login">
+        </div>
+        <div id="error-message" class="error-message"></div>
+    </form>
+</div>
+
+<script src="log.js"></script>
+</body>
+</html>
