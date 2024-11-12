@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: centre;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Analysis Results for File:</h2>
+  <div id="credit"></div> <!-- Container for CSV data -->
+</div>
+
+<script>
+function showCSVData(csvData) {
+  var lines = csvData.trim().split(/\r?\n/);
+ 
+  // Create HTML table structure
+  var html = '<table>';
+  lines.forEach(function(line) {
+    html += '<tr>';
+    var cells = line.split(',');
+    cells.forEach(function(cell) {
+      html += '<td>' + cell + '</td>';
+    });
+    html += '</tr>';
+  });
+  html += '</table>';
+ 
+  // Display table in the container
+  var csvDataContainer = document.getElementById('credit');
+  csvDataContainer.innerHTML = html;
+}
+
+// Example CSV content (replace with actual CSV file loading)
+var credit = `count,30
+valid,25
+fraud,5
+mean,122.211321
+std,256.683288
+min,0
+25%,1
+50%,9.25
+75%,105.89
+max,2125.87
+`;
+
+// Call function to display CSV data (replace with actual file loading mechanism)
+showCSVData(credit);
+</script>
+
+</body>
+</html>
