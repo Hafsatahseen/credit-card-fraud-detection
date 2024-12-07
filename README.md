@@ -6,11 +6,11 @@ This project focuses on building a machine learning model to detect fraudulent c
 
 ## Features
 
-Data Preprocessing: Handling missing values, normalizing data, and addressing class imbalance with techniques like SMOTE.
+** Data Preprocessing: Handling missing values, normalizing data, and addressing class imbalance with techniques like SMOTE.
 
-Exploratory Data Analysis (EDA): Visualizing transaction patterns and feature correlations.
+** Exploratory Data Analysis (EDA): Visualizing transaction patterns and feature correlations.
 
-Machine Learning Models: Implementation of algorithms like Logistic Regression, Random Forest, and Gradient Boosting.
+** Machine Learning Models: Implementation of algorithms like Logistic Regression, Random Forest, and Gradient Boosting.
 
 Evaluation Metrics: Precision, Recall, F1-score, and AUC-ROC for performance evaluation.
 
