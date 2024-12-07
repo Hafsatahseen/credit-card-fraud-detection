@@ -25,7 +25,7 @@ You can find the dataset in kaggle - https://www.kaggle.com/datasets/mlg-ulb/cre
 
 ## Results
 
-The model achieved an F1-score of 0.92 and an AUC-ROC of 0.97 on the test set.
+The model achieved an **F1-score of 0.92** and an **AUC-ROC of 0.97** on the test set.
 
 Insights from EDA revealed:
 
