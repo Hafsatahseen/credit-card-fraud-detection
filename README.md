@@ -18,12 +18,12 @@ Real-Time Prediction: Provides a framework for deploying the model to predict tr
 
 Customizable Thresholds: Adjustable fraud detection sensitivity based on business requirements.
 
-Dataset
+## Dataset
 
 The project uses the publicly available Credit Card Fraud Detection Dataset, containing anonymized features of transactions and labels indicating legitimate or fraudulent activities.
 You can find the dataset in kaggle - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 
-Results
+## Results
 
 The model achieved an F1-score of 0.92 and an AUC-ROC of 0.97 on the test set.
 
